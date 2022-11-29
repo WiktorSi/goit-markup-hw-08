@@ -1,0 +1,48 @@
+.contact-part__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.contact-part__link {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    height: 21px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF99;
+    padding-top: 9px;
+    width: 246px;
+}
+
+.contact-part__address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    height: 21px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    box-sizing: content-box;
+    display: block;
+    text-align: left;
+    width: 246px;
+}
+@media(min-width:1200px){
+    .contact-part__link, .contact-part__address{
+        justify-content: left;
+        text-align: left;
+    }
+    .contact-part__list{
+        padding-bottom: 0px;
+    }
+}

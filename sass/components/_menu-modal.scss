@@ -1,0 +1,117 @@
+.menu-modal{
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    z-index:2;
+}
+
+.menu-modal__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 88%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:none;
+    background-color: #FFFFFF;
+    transition: fill var(--transition);
+        &:hover,
+        &:focus {
+            fill: #2196F3;
+        }
+}
+
+.menu-modal__subpage {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 32px;
+    padding-left: 40px;
+}
+.menu-modal__link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+   
+}
+.menu-modal__link--subpage {
+    color: var(--brand-color);
+    transition: color var(--transition);
+    &:hover,
+    &:focus {
+        color: #2196F3;
+    }
+
+}
+.menu-modal__contact{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 32px;
+    padding-top: 302px;
+    padding-left: 40px;
+}
+.menu-modal__link--contact1{
+    color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: color var(--transition);
+        &:hover,
+        &:focus {
+            color: #2196F3;  
+}
+}
+.menu-modal__link--contact2 {
+    color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: color var(--transition);
+        &:hover,
+        &:focus {
+            color: #2196F3;
+        }
+}
+.menu-modal__social {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 64px;
+    padding-left: 40px;
+}
+.menu-modal__link--social {
+    color: #2196F3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+   
+}
+.menu-modal__link--social1 {
+    color: #2196F3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    padding-left: 10px;
+    border-left: 1px solid #757575;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.menu__link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+
+.menu__link--subpage {
+    color: var(--brand-color);
+    transition: color var(--transition);
+    &:hover,&:focus{
+        color: #2196F3;
+    }
+
+}
+
+.menu__link--contact1,
+.menu__link--contact2 {
+    color: #757575;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    transition: color var(--transition), stroke var(--transition);
+    &:hover,&:focus{
+        color: #2196F3;
+        stroke: #2196F3;
+
+    }
+}
+
+@media(min-width:1200px){
+    .menu__link--contact1,
+    .menu__link--contact2{
+        font-size: 14px;
+        line-height: 1.14;
+    }
+}

@@ -1,0 +1,18 @@
+.offer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 94px;
+    gap: 30px;
+}
+@media(min-width:768px) {
+    .offer-menu{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+            
+    }
+
+}

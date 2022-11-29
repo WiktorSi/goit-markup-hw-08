@@ -1,0 +1,35 @@
+.slider {
+    background-image: linear-gradient(#ffffff30, #2F303A66), url(../images/Officex1.jpg);
+    color: #FFFFFF;
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 400px;
+}
+
+.slider__title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 365px;
+}
+
+@media(min-width:1200px){
+    .slider__title{
+        max-width:696px;
+    }
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .slider {
+        background-image: url(../images/Officex2.jpg);
+    }
+}

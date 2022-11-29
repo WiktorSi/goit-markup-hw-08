@@ -1,0 +1,227 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 609px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 8px 8px;
+}
+
+.modal__button-close {
+    position: absolute;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #0000001A;
+    padding: 5px 6px 6px 5px;
+    margin-left: 396px;
+}
+
+.modal__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    box-sizing: content-box;
+    display: inline-block;
+    margin: 0 auto;
+    width: 370px;
+    height: 60px;
+    padding-top: 32px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.modal__form {
+    display: inline;
+    margin-top: 2px;
+}
+
+.modal__fieldset {
+    position: relative;
+    width: 370px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 28px;
+    transition: border-color var(--transition);
+}
+
+.modal__fieldset--primary {
+    height: 40px;
+}
+
+.modal__fieldset--secondary {
+    height: 120px;
+}
+
+.modal__fieldset:has(input:focus) {
+    border-color: #2196F3;
+}
+
+.modal__fieldset:has(input:focus) .modal__icon {
+    fill: #2196F3;
+}
+
+.modal__fieldset--secondary:has(textarea:focus) {
+    border-color: #2196F3;
+}
+
+.modal__label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: #757575;
+    position: absolute;
+    top: -17px;
+    left: 0px;
+}
+
+.modal__input {
+    position: absolute;
+    left: 0px;
+    width: 446px;
+    border: 0;
+    background-color: transparent;
+
+}
+
+.modal__input--primary {
+    height: 38px;
+    font-size: 16px;
+    padding-left: 42px;
+
+}
+
+.modal__input--secondary {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding: 16px 12px 0px 12px;
+    resize: none;
+}
+
+.modal__icon {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    transition: fill var(--transition);
+}
+
+.modal__form input:focus {
+    outline: 0;
+}
+
+.modal__form textarea:focus {
+    outline: 0;
+}
+
+.modal__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap: 7px;
+    height: 15px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+.modal__form2 {
+    display: inline;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+}
+
+.modal__form2--declaration {
+    color: #757575;
+}
+
+.modal__form2--legal {
+    color: #2196F3;
+}
+
+.modal__container input {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.modal__icon-checkbox {
+    all: unset;
+    height: 8px;
+    width: 11px;
+}
+
+.modal__checkmark {
+    display: flex;
+    justify-content: center;
+    height: 15px;
+    width: 16px;
+    padding: 2.5px;
+    cursor: pointer;
+    border: 1px solid #212121;
+    background-color: #FFFFFF;
+    transition: background-color var(--transition), border var(--transition);
+    border-radius: 2px;
+}
+
+.modal__container input:checked~.modal__checkmark {
+    background-color: #2196F3;
+    border: 1px solid #2196F3;
+}
+
+.modal__button-send {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: #2196F3;
+    border: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-block: 10px;
+    cursor: pointer;
+}
+@media(min-width: 1200px){
+    .modal{
+        width: 528px;
+        height: 581px;
+    }
+    .modal__button-close{
+        margin-left: 476px;
+    }
+    .modal__title{
+        width: 448px;
+        height: 23px;
+    }
+    .modal__fieldset{
+        width: 448px;
+    }
+    .modal__container{
+        height: 24px;
+    }
+    .modal__form2{
+        font-size: 14px;
+        line-height: 1.71;
+    }
+    .modal__checkmark{
+        margin-top: 3px;
+    }
+}

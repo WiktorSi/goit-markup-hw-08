@@ -1,0 +1,30 @@
+.our-team {
+    background-color: #F5F4FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-team__title {
+    box-sizing: content-box;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 210px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+@media(min-width:1200px){
+    .our-team__title{
+        font-size: 36px;
+        line-height: 1.17;
+        padding-bottom: 50px;
+        padding-top: 94px;
+    }
+}

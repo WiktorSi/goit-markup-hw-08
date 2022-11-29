@@ -1,0 +1,27 @@
+.activity-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.activity-menu__title {
+    box-sizing: content-box;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 352px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    padding-bottom: 50px;
+}
+
+@media(min-width:1200px){
+    .activity-menu{
+        display:flex;
+    }
+}

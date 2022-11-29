@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+h1 h2 h4 p ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+@media(min-width: 1200px){
+    h1{
+        font-size: 44px;
+        line-height: 1.36;
+    }
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+.tagging-list {
+    list-style-type: none;
+}
+
+.section {
+    padding-bottom: 94px;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    // min-width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media(min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+}

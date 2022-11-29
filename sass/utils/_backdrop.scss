@@ -1,0 +1,10 @@
+.order-card__backdrop {
+    position: fixed;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000033;
+    transition: transform var(--transition);
+}

@@ -1,0 +1,10 @@
+.menu__icon {
+    all: unset;
+    padding-right: 10px;
+    transition: color var(--transition), stroke var(--transition);
+    &:hover,&:focus{
+        color: #2196F3;
+        stroke: #2196F3;
+
+    }
+}

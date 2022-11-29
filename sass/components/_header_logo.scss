@@ -1,0 +1,25 @@
+.menu__logo {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+}
+
+.menu__logo--primary {
+    color: #2196F3;
+    letter-spacing: 0.03em;
+}
+
+.menu__logo--secondary {
+    color: #000000;
+    letter-spacing: 0.03em;
+}
+
+@media(min-width: 1200px){
+    .menu__logo{
+        font-size: 26px;
+        line-height: 1.19;
+    }
+}

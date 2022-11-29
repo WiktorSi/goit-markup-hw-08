@@ -1,0 +1,45 @@
+.customer-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:30px;
+}
+
+.customer-card__view {
+    all: unset;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:208px;
+    height:90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.customer-card__view:hover {
+    border-color: #2196F3;
+    --color2: #2196f3;
+    --color5: #2196f3;
+    cursor: pointer;
+}
+
+@media(min-width:721px) and (max-width:768px){
+    .customer-card{
+        gap:60px;
+    }
+}
+@media(min-width:768px) {
+    .customer-card__view {
+        width: 224px;
+        height: 90px;
+    }
+}
+@media(min-width:1200px) {
+    .customer-card__view {
+        width: 168px;
+        height: 90px;
+    }
+   
+}
