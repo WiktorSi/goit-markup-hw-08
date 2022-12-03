@@ -38,12 +38,12 @@
         --color4: #2196f3;
     }
 }
-@media(min-width:768px){
+@media(min-width:$tablet){
     .social-part{
         padding-top: 40px;
     }
 }
-@media(min-width:1200px){
+@media(min-width:$desktop){
     .social-part{
         display: inline-block;
         text-align: left;

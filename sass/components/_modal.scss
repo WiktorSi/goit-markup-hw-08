@@ -199,7 +199,7 @@
     padding-block: 10px;
     cursor: pointer;
 }
-@media(min-width: 1200px){
+@media(min-width: $desktop){
     .modal{
         width: 528px;
         height: 581px;

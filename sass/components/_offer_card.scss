@@ -28,7 +28,7 @@
     padding: 25px 0;
 }
 
-@media(min-width: 768px){
+@media(min-width: $tablet){
     .offer-card, .offer-card__title, .offer-card__description{
         width:354px;
         
@@ -37,7 +37,7 @@
         justify-content: left;
     }
 }
-@media(min-width: 1200px) {
+@media(min-width: $desktop) {
 
     .offer-card,
     .offer-card__title,

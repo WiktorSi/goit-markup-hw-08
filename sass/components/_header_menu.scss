@@ -53,12 +53,12 @@
     display: flex;
     flex-direction: column;
 }
-@media (max-width: 768px){
+@media (max-width: $tablet){
     .menu__list{
         display: none;
     }
 }
-@media (min-width: 768px){
+@media (min-width: $tablet){
     .menu__nav {
         display: flex;
         flex-direction: row;
@@ -66,7 +66,7 @@
     }
     
 }
-@media(min-width: 1200px){
+@media(min-width: $desktop){
     .menu__list--contact{
         display:flex;
         flex-direction: row;

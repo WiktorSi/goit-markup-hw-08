@@ -29,18 +29,18 @@
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: $tablet){
     .portfolio-filter{
         flex-wrap: wrap;
         justify-content:left;
     }
 }
-@media(min-width: 768px) {
+@media(min-width: $tablet) {
     .portfolio-filter {
         padding-bottom: 30px;
     }
 }
-@media(min-width: 1200px) {
+@media(min-width: $desktop) {
     .portfolio-filter {
         padding-top: 94px;
         padding-bottom: 50px;

@@ -37,7 +37,7 @@
     text-align: left;
     width: 246px;
 }
-@media(min-width:1200px){
+@media(min-width:$desktop){
     .contact-part__link, .contact-part__address{
         justify-content: left;
         text-align: left;

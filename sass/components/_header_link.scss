@@ -32,7 +32,7 @@
     }
 }
 
-@media(min-width:1200px){
+@media(min-width: $desktop){
     .menu__link--contact1,
     .menu__link--contact2{
         font-size: 14px;

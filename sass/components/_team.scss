@@ -20,7 +20,7 @@
     padding-bottom: 30px;
     padding-top: 60px;
 }
-@media(min-width:1200px){
+@media(min-width: $desktop){
     .our-team__title{
         font-size: 36px;
         line-height: 1.17;

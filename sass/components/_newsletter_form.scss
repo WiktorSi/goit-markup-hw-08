@@ -69,14 +69,14 @@
     padding: 3px;
 
 }
-@media(min-width:768px) and (max-width:1200px){
+@media(min-width:$tablet) and (max-width:$desktop){
     .newsletter-form{
         padding-left: 140px;
         padding-right: 140px;
     }
 }
 
-@media(min-width:1200px){
+@media(min-width:$desktop){
     .newsletter-form{
         padding-top: 0;
         flex-direction: row;

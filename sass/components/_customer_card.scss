@@ -25,18 +25,18 @@
     cursor: pointer;
 }
 
-@media(min-width:721px) and (max-width:768px){
+@media(min-width:721px) and (max-width: $tablet){
     .customer-card{
         gap:60px;
     }
 }
-@media(min-width:768px) {
+@media(min-width:$tablet) {
     .customer-card__view {
         width: 224px;
         height: 90px;
     }
 }
-@media(min-width:1200px) {
+@media(min-width:$desktop) {
     .customer-card__view {
         width: 168px;
         height: 90px;

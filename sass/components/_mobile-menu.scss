@@ -10,7 +10,7 @@
         fill: #2196F3;
     }
 }
-@media (min-width: 768px ){
+@media (min-width: $tablet ){
     .mobile-menu__icon{
         display: none;
     }

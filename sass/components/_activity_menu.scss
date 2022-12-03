@@ -20,7 +20,7 @@
     padding-bottom: 50px;
 }
 
-@media(min-width:1200px){
+@media(min-width: $desktop){
     .activity-menu{
         display:flex;
     }

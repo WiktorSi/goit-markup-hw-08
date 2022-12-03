@@ -17,7 +17,7 @@
     letter-spacing: 0.03em;
 }
 
-@media(min-width: 1200px){
+@media(min-width: $desktop){
     .menu__logo{
         font-size: 26px;
         line-height: 1.19;

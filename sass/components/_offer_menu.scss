@@ -6,7 +6,7 @@
     padding-top: 94px;
     gap: 30px;
 }
-@media(min-width:768px) {
+@media(min-width:$tablet) {
     .offer-menu{
         display:flex;
         flex-direction: row;
